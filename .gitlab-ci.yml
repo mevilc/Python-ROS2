@@ -1,9 +1,8 @@
 run_tests:
     image: python:3.8-alpine
-    before_script:
-        - sudo apt-get update && apt-get install pip
-        - /usr/local/bin/python -m pip install --upgrade pip
-        - pip install unittest 
-        - pip install copy
+   # before_script:
+        #- sudo apt-get update && apt-get install pip
+        #- /usr/local/bin/python -m pip install --upgrade pip
+        
     script:
         - python3 test_cards.py
