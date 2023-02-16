@@ -1,8 +1,22 @@
+stages:
+    - test
+    - build
+    - deploy
+
 run_tests:
-    #image: python:3.8-alpine
+    image: python:3.8-alpine
+    stage: test
    # before_script:
         #- sudo apt-get update && apt-get install pip
         #- /usr/local/bin/python -m pip install --upgrade pip
         
     script:
         - python3 test_cards.py
+
+run_app:
+    stage: build
+    image: python:3.8-alpine
+    script:
+        - ros2 run cards_pypkg dealer
+        - ros2 run cards_pypkg player
+
