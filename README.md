@@ -1,3 +1,5 @@
+to run **dealer** and **player** executables: ros2 run cards_pypkg <executable>
+
 # Ch_2.3
 
 
