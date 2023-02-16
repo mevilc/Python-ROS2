@@ -12,11 +12,12 @@ run_tests:
         
     script:
         - python3 test_cards.py
-
 run_app:
     stage: build
     image: python:3.8-alpine
     before_script:
+        - sudo usermod -a -G sudo gitlab-runner
+   
         - sudo apt-get update
         - sudo apt-get install ca-certificates 
         - sudo apt-get install ca-curl
