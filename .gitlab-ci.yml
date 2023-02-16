@@ -3,6 +3,12 @@ stages:
     - build
     - deploy
 
+build_py:
+    image: python:3.8-alpine
+    stage: build
+    script:
+        - python3 cards.py
+        
 run_tests:
     image: python:3.8-alpine
     stage: test
