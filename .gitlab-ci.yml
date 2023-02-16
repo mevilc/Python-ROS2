@@ -16,6 +16,8 @@ run_tests:
 run_app:
     stage: build
     image: python:3.8-alpine
+    before_script:
+        - docker pull osrf/ros:foxy-desktop
     script:
         - ros2 run cards_pypkg dealer
         - ros2 run cards_pypkg player
