@@ -1,6 +1,8 @@
 run_tests:
     image: python:3.8-alpine
-    #before_script:
-    #    - apt-get update && apt-get install pip
+    before_script:
+        - apt-get update && apt-get install pip
+        - pip install unittest 
+        - pip install copy
     script:
         - python3 test_cards.py
