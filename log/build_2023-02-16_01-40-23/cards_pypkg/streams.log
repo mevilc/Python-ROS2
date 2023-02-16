@@ -1,0 +1,44 @@
+[0.562s] Invoking command in '/home/user/ros2_ws/src/cards_pypkg': PYTHONPATH=/home/user/ros2_ws/install/cards_pypkg/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/cards_pypkg build --build-base /home/user/ros2_ws/build/cards_pypkg/build install --prefix /home/user/ros2_ws/install/cards_pypkg --record /home/user/ros2_ws/build/cards_pypkg/install.log --single-version-externally-managed
+[1.088s] running egg_info
+[1.089s] creating ../../build/cards_pypkg/cards_pypkg.egg-info
+[1.089s] writing ../../build/cards_pypkg/cards_pypkg.egg-info/PKG-INFO
+[1.089s] writing dependency_links to ../../build/cards_pypkg/cards_pypkg.egg-info/dependency_links.txt
+[1.089s] writing entry points to ../../build/cards_pypkg/cards_pypkg.egg-info/entry_points.txt
+[1.090s] writing requirements to ../../build/cards_pypkg/cards_pypkg.egg-info/requires.txt
+[1.090s] writing top-level names to ../../build/cards_pypkg/cards_pypkg.egg-info/top_level.txt
+[1.092s] writing manifest file '../../build/cards_pypkg/cards_pypkg.egg-info/SOURCES.txt'
+[1.153s] reading manifest file '../../build/cards_pypkg/cards_pypkg.egg-info/SOURCES.txt'
+[1.154s] writing manifest file '../../build/cards_pypkg/cards_pypkg.egg-info/SOURCES.txt'
+[1.155s] running build
+[1.155s] running build_py
+[1.155s] creating /home/user/ros2_ws/build/cards_pypkg/build
+[1.155s] creating /home/user/ros2_ws/build/cards_pypkg/build/lib
+[1.156s] creating /home/user/ros2_ws/build/cards_pypkg/build/lib/cards_pypkg
+[1.156s] copying cards_pypkg/DEALER.py -> /home/user/ros2_ws/build/cards_pypkg/build/lib/cards_pypkg
+[1.156s] copying cards_pypkg/cards.py -> /home/user/ros2_ws/build/cards_pypkg/build/lib/cards_pypkg
+[1.156s] copying cards_pypkg/PLAYER.py -> /home/user/ros2_ws/build/cards_pypkg/build/lib/cards_pypkg
+[1.156s] copying cards_pypkg/__init__.py -> /home/user/ros2_ws/build/cards_pypkg/build/lib/cards_pypkg
+[1.157s] running install
+[1.158s] running install_lib
+[1.159s] creating /home/user/ros2_ws/install/cards_pypkg/lib/python3.8/site-packages/cards_pypkg
+[1.159s] copying /home/user/ros2_ws/build/cards_pypkg/build/lib/cards_pypkg/DEALER.py -> /home/user/ros2_ws/install/cards_pypkg/lib/python3.8/site-packages/cards_pypkg
+[1.160s] copying /home/user/ros2_ws/build/cards_pypkg/build/lib/cards_pypkg/cards.py -> /home/user/ros2_ws/install/cards_pypkg/lib/python3.8/site-packages/cards_pypkg
+[1.160s] copying /home/user/ros2_ws/build/cards_pypkg/build/lib/cards_pypkg/PLAYER.py -> /home/user/ros2_ws/install/cards_pypkg/lib/python3.8/site-packages/cards_pypkg
+[1.160s] copying /home/user/ros2_ws/build/cards_pypkg/build/lib/cards_pypkg/__init__.py -> /home/user/ros2_ws/install/cards_pypkg/lib/python3.8/site-packages/cards_pypkg
+[1.161s] byte-compiling /home/user/ros2_ws/install/cards_pypkg/lib/python3.8/site-packages/cards_pypkg/DEALER.py to DEALER.cpython-38.pyc
+[1.162s] byte-compiling /home/user/ros2_ws/install/cards_pypkg/lib/python3.8/site-packages/cards_pypkg/cards.py to cards.cpython-38.pyc
+[1.162s] byte-compiling /home/user/ros2_ws/install/cards_pypkg/lib/python3.8/site-packages/cards_pypkg/PLAYER.py to PLAYER.cpython-38.pyc
+[1.163s] byte-compiling /home/user/ros2_ws/install/cards_pypkg/lib/python3.8/site-packages/cards_pypkg/__init__.py to __init__.cpython-38.pyc
+[1.163s] running install_data
+[1.164s] creating /home/user/ros2_ws/install/cards_pypkg/share/ament_index
+[1.165s] creating /home/user/ros2_ws/install/cards_pypkg/share/ament_index/resource_index
+[1.165s] creating /home/user/ros2_ws/install/cards_pypkg/share/ament_index/resource_index/packages
+[1.165s] copying resource/cards_pypkg -> /home/user/ros2_ws/install/cards_pypkg/share/ament_index/resource_index/packages
+[1.166s] copying package.xml -> /home/user/ros2_ws/install/cards_pypkg/share/cards_pypkg
+[1.166s] running install_egg_info
+[1.169s] Copying ../../build/cards_pypkg/cards_pypkg.egg-info to /home/user/ros2_ws/install/cards_pypkg/lib/python3.8/site-packages/cards_pypkg-0.0.0-py3.8.egg-info
+[1.173s] running install_scripts
+[1.201s] Installing dealer script to /home/user/ros2_ws/install/cards_pypkg/lib/cards_pypkg
+[1.201s] Installing player script to /home/user/ros2_ws/install/cards_pypkg/lib/cards_pypkg
+[1.202s] writing list of installed files to '/home/user/ros2_ws/build/cards_pypkg/install.log'
+[1.238s] Invoked command in '/home/user/ros2_ws/src/cards_pypkg' returned '0': PYTHONPATH=/home/user/ros2_ws/install/cards_pypkg/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/cards_pypkg build --build-base /home/user/ros2_ws/build/cards_pypkg/build install --prefix /home/user/ros2_ws/install/cards_pypkg --record /home/user/ros2_ws/build/cards_pypkg/install.log --single-version-externally-managed

@@ -1,0 +1,4 @@
+[console_scripts]
+dealer = cards_pypkg.DEALER:main
+player = cards_pypkg.PLAYER:main
+
